@@ -1,0 +1,166 @@
+body {
+  margin: 0px 0px 0px 0px;
+  background: #343434;
+  font-family: sans-serif;
+}
+
+#wrapper {
+  text-align: center;
+  color: #000000;
+  background-color: #E3E2DF;
+  width: 1098px;
+  font-family: "century gothic";
+  margin: auto;
+}
+
+#header {
+  background-image: url("../images/header.png");
+  height: 272px;
+}
+
+#headertext {
+  text-align: left;
+  position: relative;
+  top: -40px;
+  left: 5px;
+  color: #E3E2DF;
+  font-size: 175%;
+  font-family: "century gothic";
+  text-shadow: 2px 2px black;
+  padding-top: 200px
+}
+
+.content {
+  padding: 20px 20px 120px 20px;
+  background-color: #cdccc7;
+  text-align: justify;
+}
+
+h2 {
+  color: #000000;
+  font-family: "century gothic";
+}
+
+#footer {
+  font-size: 80%;
+  text-align: center;
+  clear: right;
+  padding: 20px 0 20px 0;
+}
+
+#nav ul {
+  list-style-position: none;
+}
+
+#nav li {
+  display: inline;
+  font-family: "century gothic";
+}
+
+#nav a {
+  text-decoration: none;
+  padding-right: 10px;
+  color: #000000;
+}
+
+.right {
+  text-align-last: right;
+  -moz-text-align-last: right;
+}
+
+.imgright {
+  float: right;
+  padding-left: 20px;
+}
+
+.imgleft {
+  float: left;
+  padding-right: 20px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.blue {
+  color: blue;
+}
+
+.gray {
+  color: grey;
+}
+
+#marginup {
+  margin-top: 20px;
+}
+
+.osu {
+  background: url("../images/socialmedia.png") no-repeat -45px -210px;
+  width: 355px;
+  height: 353px;
+  zoom: 0.1;
+}
+
+.twitter {
+  background: url("../images/socialmedia.png") no-repeat -441px -47px;
+  width: 341px;
+  height: 327px;
+  zoom: 0.10795;
+}
+
+.discord {
+  background: url("../images/socialmedia.png") no-repeat -861px -243px;
+  width: 291px;
+  height: 320px;
+  zoom: 0.11;
+}
+
+#osu:hover {
+  background: url("../images/socialmediaGray.png") no-repeat -45px -210px;
+  width: 355px;
+  height: 353px;
+}
+
+#twitter:hover {
+  background: url("../images/socialmediaGray.png") no-repeat -441px -47px;
+  width: 341px;
+  height: 327px;
+}
+
+#discord:hover {
+  background: url("../images/socialmediaGray.png") no-repeat -861px -243px;
+  width: 291px;
+  height: 320px;
+}
+
+#navHome:hover {
+  font-size: 80%;
+}
+
+#navEditor:hover {
+  font-size: 80%;
+}
+
+#navAesthetics:hover {
+  font-size: 80%;
+}
+
+#navFlow:hover {
+  font-size: 80%;
+}
+
+#navRhythm:hover {
+  font-size: 80%;
+}

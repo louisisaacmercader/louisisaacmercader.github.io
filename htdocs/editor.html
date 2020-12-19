@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset = "utf-8">
+    <title>osu!mapping editor</title>
+    <link rel="stylesheet" type="text/css" href="../css/page2_style.css">
+    <link rel="icon" href="../images/icon.png">
+
+</head>
+<body>
+
+    <div id="wrapper">
+
+        <div id="header">
+            <div id="headertext">
+                <h1>editor</h1>
+            </div>
+        </div>
+
+        <div id="nav">
+            <ul>
+                <li><a href="../index.html" id="navHome">Home</a></li>
+                <li><a href="editor.html" id="navEditor">Editor</a></li>
+                <li><a href="aesthetics.html" id="navAesthetics">Aesthetics</a></li>
+                <li><a href="flow.html" id="navFlow">Flow</a></li>
+                <li><a href="rhythm.html" id="navRhythm">Rhythm</a></li>
+            </ul> 
+        </div>
+
+        <div class="content">
+
+        <span class="right">
+            <img src="../images/page2_metadataTab.png" alt="metadata tab" width="352" height="425" class="imgright">
+            <h2>Song Setup and Metadata</h2>
+            <p>This is the first thing you see when you begin mapping (besides dragging and dropping your song file into osu! of course). In the first tab, you will see metadata. Here, you input song information like title, artist name, and difficulty name (i.e. Easy, Normal, Hard, Insane, Expert etc.). The Audio, Colours, Design, and Advanced tabs aren't that important for now.
+            </p>
+        </span>
+
+            <img src="../images/page2_difficultyTab.png" alt="difficulty tab" width="262" height="245" class="imgleft">
+            <h2>Difficulty Tab</h2>
+            <p>In this tab, you can change different properties that affect the difficulty of a map. <span class="bold">HP Drain Rate (HP)</span> represents how much a player's health drops per missed note. <span class="bold">Circle Size (CS)</span> indicates how big or small the circles are in a map. 2 being the biggest and 7 being the smallest. <span class="bold">Approach Rate (AR)</span> represents how fast the circles come up on screen. <span class="bold">Overall Difficulty (OD)</span> changes the window of accuracy for a player. The higher the OD, the harder it is to hit a full 300 score on a note.</p> <br>
+
+        <span class="right">
+            <img src="../images/page2_mainTiming.png" alt="main timing menu" width="491" height="372" class="imgleft">
+            <h2>Timing</h2>
+            <p>This is the main timing menu. Here you can set the song's bpm, which is how fast the song goes. Offset refers to the first beat of the song's metronome. Slider velocity is a measure of how fast the slider ball moves. For now, I recommend not messing with slider tick rate and just leaving it at 1. When you open the Timing Setup Panel, you can add more timing points, change hitsound volume, and add slider velocity multipliers if you want to speed up or slow down sliders. <br> <br>
+            On the big timeline at the bottom, you can see all your different timing points and bookmarks. Mappers usually refer to all of these collectively as "lines." <span class="red">Red lines</span> represent parent timing points. Most songs usually only have one as not a lot of songs have tempo changes or offbeat notes. <span class="green">Green lines</span> are inherited timing points. They modify the slider velocity and hitsound volume of parent timing points. <span class="yellow">Yellow lines</span> are a combination of both in one point in the timeline, and <span class="blue">Blue lines</span> are bookmarks which are used for organization purposes.
+            </p>
+            <img src="../images/page2_linesRedGreen.png" alt="red and green lines" width="1058" height="63" class="imgright">
+        </span> <br> <br> <br> <br> <br>
+
+        <img src="../images/page2_composeObjects.png" alt="object types" width="75" height="330" class="imgleft">
+            <h2>Compose</h2>
+            <p> This is the part where you actually start mapping. The compose tab allows you to place three different types of hitobjects: circles, sliders, and spinners. 
+            <br> <br>
+            Circles are the easiest to understand. You simply place them and they can be clicked exactly once. Sliders are a bit more complicated. Firstly, they are made of 3 segments: The slider head, slider body, and slider tail. You can change the shape of a slider with the use of anchors. <span class="gray">Gray anchors</span> add curves while <span class="red">Red anchors</span> add ridges and corners. Lastly, spinners are pretty straightforward. You can set them to last a set amount of time through dragging in the timeline.
+            </p>
+            <img src="../images/page2_spinner.png" alt="spinner" height="105" class="imgright">
+            <img src="../images/page2_sliderSlanted.png" alt="slanted slider" width="210" height="105" class="imgright">
+            <img src="../images/page2_sliderCurved.png" alt="curved slider" width="210" height="105" class="imgright">
+            <img src="../images/page2_sliderStraight.png" alt="straight slider" width="210" height="105" class="imgright">
+            <img src="../images/page2_circle.png" alt="circle" height="105" class="imgright">
+            <br>
+        </div>
+
+    	<div id="footer">
+            <a href=https://osu.ppy.sh/users/14527420><img class="osu" id="osu"></a>
+            <a href=https://twitter.com/nysusss><img class="twitter" id="twitter"></a>
+            <a href=https://discordapp.com/users/300241223141163009><img class="discord" id="discord"></a>
+
+            <br> Louis Isaac Mercader&nbsp;&nbsp;&nbsp;9-Calcium <br>
+
+            *all images are screenshots taken from my own computer
+        </div>
+
+    </div>
+
+</body>
+</html>
